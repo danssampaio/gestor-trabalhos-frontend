@@ -1,5 +1,7 @@
 import DashboardHeader from "@/components/DashboardHeader";
 import DashboardSidebar from "@/components/DashboardSidebar";
+import DashboardTeacherHeader from "@/components/DashboardTeacherHeader";
+import DashboardTeacherSidebar from "@/components/DashboardTeacherSidebar";
 
 export default function DashboardLayout({
   children,
@@ -8,8 +10,8 @@ export default function DashboardLayout({
 }) {
   return (
     <main className="dashboard-layout h-screen w-full">
-      <DashboardHeader nome="Eric" funcao="Aluno" />
-      <DashboardSidebar />
+      <DashboardTeacherHeader nome="Hamilton Foguetão" funcao="Docente" />
+      <DashboardTeacherSidebar />
       {children}
     </main>
   );

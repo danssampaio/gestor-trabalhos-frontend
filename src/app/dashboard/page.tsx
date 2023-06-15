@@ -1,7 +1,11 @@
+import DashboardTeacher from "@/components/DashboardTeacher";
+
 export default function Dashboard() {
   return (
     <main>
-      <h1>Dashboard</h1>
+      <div>
+        <DashboardTeacher/>
+      </div>
     </main>
   );
 }
